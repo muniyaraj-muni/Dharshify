@@ -1,11 +1,14 @@
-package com.focus.dharshify
+package com.focus.dharshify.views
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-class MusicFragment : Fragment() {
+import com.focus.dharshify.R
+
+class FavoriteFragment : Fragment() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -15,6 +18,6 @@ class MusicFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_music, container, false)
+        return inflater.inflate(R.layout.fragment_favorite, container, false)
     }
 }

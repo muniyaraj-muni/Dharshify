@@ -10,12 +10,12 @@
 
     <fragment
         android:id="@+id/musicFragment"
-        android:name="com.focus.dharshify.MusicFragment"
+        android:name="com.focus.dharshify.views.MusicFragment"
         android:label="Dashboard" />
 
     <fragment
         android:id="@+id/favoriteFragment"
-        android:name="com.focus.dharshify.FavoriteFragment"
+        android:name="com.focus.dharshify.views.FavoriteFragment"
         android:label="Profile" />
 
 </navigation>
