@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.focus.dharshify.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/musicFragment"
+        android:name="com.focus.dharshify.MusicFragment"
+        android:label="Dashboard" />
+
+    <fragment
+        android:id="@+id/favoriteFragment"
+        android:name="com.focus.dharshify.FavoriteFragment"
+        android:label="Profile" />
+
+</navigation>
